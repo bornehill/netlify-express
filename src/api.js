@@ -23,7 +23,7 @@ router.get("/", (req, res) => {
 	res.json(response);
 });
 
-router.get("/menu", async (req, res) => {
+router.get("/auth/menu", async (req, res) => {
 	try {
 		response.data = null;
 		response.ok = false;
